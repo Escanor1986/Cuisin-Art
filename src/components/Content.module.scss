@@ -23,9 +23,23 @@
 .contentCard {
   max-width: 1130px;
   width: 100%;
+  i {
+    font-size: large;
+    font-weight: 900;
+  }
 }
 
 .elem {
   height: 200px;
   border: 1px solid red;
+}
+
+.searchBar {
+  padding: 10px 15px;
+  border: 2px solid var(--accent);
+  border-radius: 30px;
+  input {
+    outline: 0;
+    border: 0;
+  }
 }
