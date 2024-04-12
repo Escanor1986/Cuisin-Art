@@ -5,10 +5,10 @@ Cuisin'Art est un site web de recettes de cuisine, conçu pour aider les amateur
 
 ## Fonctionnalités
 
-- Affichage des recettes populaires
+- Affichage des recettes populaires.
 - Recherche de recettes par ingrédients, catégories, etc.
-- Création d'un compte utilisateur pour sauvegarder des recettes préférées
-- Ajout de nouvelles recettes par les utilisateurs
+- Création d'un compte utilisateur pour sauvegarder des recettes préférées.
+- Ajout de nouvelles recettes par les utilisateurs.
 
 ## Technologies Utilisées
 
