@@ -1,10 +1,16 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import "./assets/styles/index.scss";
-import App from "./App.jsx";
+import App from "./App";
+import { ApiContext } from "./Context/ApiContext";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <ApiContext.Provider value="https://restapi.fr/api/recipes">
+      <App />
+    </ApiContext.Provider>
+  </StrictMode>
 );

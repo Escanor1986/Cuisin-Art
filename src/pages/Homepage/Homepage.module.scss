@@ -1,4 +1,4 @@
-@use "../assets/styles/mixins" as mixin;
+@use "../../assets/styles/mixins" as mixin;
 
 .grid {
   display: grid;
@@ -42,4 +42,9 @@
     outline: 0;
     border: 0;
   }
+}
+
+.small {
+  font-size: 12px;
+  font-weight: 500;
 }
